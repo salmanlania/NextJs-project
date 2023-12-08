@@ -3,7 +3,7 @@ import { useState } from "react"
 import { signin } from "../config/firebase"
 import { signInWithPopup, FacebookAuthProvider } from "firebase/auth";
 import { authentication } from "../config/firebase";
-import { useRouter } from "next/navigation"
+import { useRouter } from "next/router"
 import Navbar from "../navbar/Navbar"
 export default function login() {
     const router = useRouter()
